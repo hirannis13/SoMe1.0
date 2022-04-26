@@ -1,0 +1,91 @@
+/* TEMPLATE SOME */
+
+* {
+    background-color: rgb(181, 203, 223);
+}
+.subnav {
+    display: flex;
+    width: 87%;
+    margin-left: 2vw;
+    margin-top: 2vw;
+}
+
+.title {
+    margin: auto;
+    font-size: 3vw;
+}
+
+.icon {
+    position: fixed;
+}
+
+.schedule {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 9vw;
+}
+
+.paragraph {
+    text-align: center;
+}
+
+#designguide {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vw;
+}
+
+#toneofvoice {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vw;
+}
+
+#content {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vw;
+}
+
+/* TEMPLATE SOME */
+
+
+
+
+/* SIDENAV */
+
+.sidenav {
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    margin-top: 15vw;
+  }
+  
+  .sidenav a {
+    padding-top: 2vw;
+    padding-left: 2vw;
+    text-decoration: none;
+    font-size: 1.5vw;
+    color: #535353;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+
+  /* SIDENAV */
+
+
+
+
+
+  
