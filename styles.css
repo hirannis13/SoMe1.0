@@ -1,6 +1,34 @@
+/* Main Menu */
+.selectionMenu{
+    display: flex;
+    margin-top: 100px;
+}
+
+.textBox{
+    background-color: blue;
+    margin-bottom: 5%;
+    width: 75vw;
+    margin-left: 12vw;
+}
+.content{
+    text-align: center;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.subnavMain {
+    position: absolute;    
+    
+}
+
+.selectorMenuMain {
+    position: relative;
+}
+/* --------- */
+
 /* TEMPLATE SOME */
 
-* {
+ body{
     background-color: rgb(181, 203, 223);
 }
 .subnav {
