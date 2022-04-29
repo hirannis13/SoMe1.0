@@ -24,13 +24,30 @@
     position: fixed;
     z-index: 1;
     top: 0;
-    right: 0;
+    right: 10px;
     overflow-x: hidden;
     margin-top: 15vw;
 }
 .selectorMenuMain {
     display: flex;
     flex-direction: column-reverse;
+}
+.subnavMainRight a {
+  margin-top: 1vw;
+  color: #535353;
+  display: block;
+  max-width: 32px;
+  max-height: 32px;
+}
+.calBtn {
+  border: none;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  background-color: rgb(181, 203, 223);
+}
+.subnavMainRight a:hover {
+  background-color: #691919;
 }
 /* --------- */
 
