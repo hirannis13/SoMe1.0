@@ -153,13 +153,14 @@
     margin-right: auto;
     display: block;
     margin-top: 4vw;
+    
 }
 
 .paragraph {
     text-align: center;
 }
 
-#intro {
+/* #intro {
     width: 70%;
     margin-left: auto;
     margin-right: auto;
@@ -185,7 +186,7 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: 10vw;
-}
+} */
 
 /* TEMPLATE SOME */
 
