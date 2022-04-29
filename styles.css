@@ -6,6 +6,8 @@
 
 .mainTitle{
     text-align: center;
+    font-size: 1.5vw;
+
 }
 
 .textBox{
@@ -13,6 +15,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 10vw;
+    font-size: 1.5vw;
 }
 .content{
     text-align: center;
@@ -35,8 +38,8 @@
   margin-top: 1vw;
   color: #535353;
   display: block;
-  max-width: 32px;
-  max-height: 32px;
+  max-width: 3.5vw;
+  max-height: 3.5vw;
 }
 .calBtn{
   border: none;
@@ -50,10 +53,13 @@
   left: 0;
   overflow-x: hidden;
   margin-top: 8vh;
+  max-width: 3.5vw;
 }
 
+
+
 .subnavMainRight a:hover {
-  background-color: #691919;
+  background-color: #f1f1f1;
 }
 /* --------- */
 
@@ -71,9 +77,34 @@
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
   }
-  
+  .modalInsta {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
   /* Modal Content */
   .modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+  }
+  .modal-contentInsta{
     position: relative;
     background-color: #fefefe;
     margin: auto;
@@ -126,6 +157,35 @@
     background-color: #5cb85c;
     color: white;
   }
+  
+  .closeInsta {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .closeInsta:hover,
+  .closeInsta:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .modal-headerInsta {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+  }
+  
+  .modal-bodyInsta {padding: 2px 16px;}
+  
+  .modal-footerInsta {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+  }
+  
 /* --------- */
 /* TEMPLATE SOME */
 
@@ -160,33 +220,6 @@
     text-align: center;
 }
 
-/* #intro {
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10vw;
-}
-
-#toneofvoice {
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10vw;
-}
-
-#content {
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10vw;
-}
-
-#opp {
-  width: 70%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10vw;
-} */
 
 /* TEMPLATE SOME */
 

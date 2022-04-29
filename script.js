@@ -24,4 +24,29 @@
       }
     }
 
+    var modalInsta = document.getElementById("myModalInsta");
+    
+    // Get the button that opens the modal
+    var btnInsta = document.getElementById("myBtnInsta");
+    
+    // Get the <span> element that closes the modal
+    var spanInsta = document.getElementsByClassName("closeInsta")[0];
+    
+    // When the user clicks the button, open the modal 
+    btnInsta.onclick = function() {
+        modalInsta.style.display = "block";
+    }
+    
+    // When the user clicks on <span> (x), close the modal
+    spanInsta.onclick = function() {
+        modalInsta.style.display = "none";
+    }
+    
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event2) {
+      if (event2.target == modalInsta) {
+        modalInsta.style.display = "none";
+      }
+    }
+
     
