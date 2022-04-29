@@ -178,8 +178,14 @@
     color: white;
   }
   
-  .modal-bodyInsta {padding: 2px 16px;}
-  
+  .modal-bodyInsta {
+    padding: 2px 16px;
+    
+  }
+  .modal-bodyInsta img{
+    max-height: 500px;
+    
+  }
   .modal-footerInsta {
     padding: 2px 16px;
     background-color: #5cb85c;
