@@ -10,7 +10,7 @@
 
 .textBox{
     background-color: blue;
-    width: 70%;
+    width: 65%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10vw;
@@ -128,8 +128,7 @@
 }
 .subnav {
     display: flex;
-    width: 87%;
-    margin-left: 2vw;
+    width: 100%;
     margin-top: 2vw;
 }
 
@@ -194,7 +193,7 @@
   
   .sidenav a {
     padding-top: 2vw;
-    padding-left: 2vw;
+    padding-left: 1vw;
     text-decoration: none;
     font-size: 1.5vw;
     color: #535353;
